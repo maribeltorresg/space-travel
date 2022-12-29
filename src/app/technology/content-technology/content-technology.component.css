@@ -1,0 +1,74 @@
+.technology-content {
+  color: white;
+  padding: 30px 30px 40px;
+}
+
+.technology-content {
+  background-image: url(../../../assets/technology/background-technology-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.d-flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.technology-content h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding-left: 100px;
+  text-transform: uppercase;
+}
+
+.technology-content h2 span {
+  color: #4a4a54;
+  margin-right: 20px;
+}
+
+.circle {
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  font-size: 1.6rem;
+  width: 75px;
+}
+.bck-circle {
+  background-color: white;
+  color: black;
+}
+.circle-two {
+  margin: 40px 0;
+}
+
+.content-number-info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.info {
+  padding: 0 40px;
+}
+
+.info .text {
+  color: #9596a5;
+  text-transform: uppercase;
+}
+
+.info h3 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.info .description {
+  color: #9fa2b1;
+}
