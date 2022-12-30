@@ -30,6 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - Edison
 - Ricardo
-- Luisa
+- Luisa Chavez Tarazona
 - Yessica
 - Maribel Torres Guevara
