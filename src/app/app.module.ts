@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { DestinationModule } from './destination/destination.module';
+import { CrewModule } from './crew/crew.module';
+import { TechnologyModule } from './technology/technology.module';
 
 @NgModule({
   declarations: [
@@ -13,16 +15,11 @@ import { DestinationModule } from './destination/destination.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DestinationModule
+    DestinationModule,
+    CrewModule,
+    TechnologyModule
   ],
-import { CrewModule } from './crew/crew.module';
-import { TechnologyModule } from './technology/technology.module';
-
-@NgModule({
-  declarations: [AppComponent],
-
   providers: [],
-  imports: [BrowserModule, AppRoutingModule, CrewModule, TechnologyModule],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

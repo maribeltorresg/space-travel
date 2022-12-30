@@ -1,10 +1,21 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+
+.destination-content {
   background-image: url(/assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.d-flex {
+  display: flex;
+  gap: 2rem;
 }
 
 .titulo-dest {
   margin-left: 100px;
   color: rgb(151, 151, 151);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .tab-content {
@@ -27,7 +38,13 @@ body {
 }
 
 .texto {
-  width: 70%;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.texto h1{
+  font-size: 55px;
+  font-family: var(--font-family-condensed);
 }
 
 .table {
@@ -50,3 +67,10 @@ body {
   background: none;
 }
 
+.nav-link{
+  font-size: 15px;
+}
+
+.cifras{
+  font-size: 30px;
+}
