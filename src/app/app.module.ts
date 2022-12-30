@@ -14,7 +14,12 @@ import { CrewModule } from './crew/crew.module';
     AppRoutingModule,
     CrewModule
   ],
+import { TechnologyModule } from './technology/technology.module';
+
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, TechnologyModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
