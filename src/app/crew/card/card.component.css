@@ -1,19 +1,24 @@
 .role {
-   font-size: 1.2em;
-   margin-bottom: 0.5em;
-   text-transform: uppercase;
-   color: #aaa;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  font-family: var(--font-family-bellefair);
+  text-transform: uppercase;
+  color: white;
+  opacity: 0.5;
 }
 .name {
-   font-size: 2em;
-   margin-bottom: 0.5em;
-   text-transform: uppercase;
-   color: #fff;
+  font-size: 3.5rem;
+  margin-bottom: 0.5em;
+  font-family: var(--font-family-bellefair);
+  text-transform: uppercase;
+  color: #fff;
 }
 .bio {
-   font-size: 1em;
-   margin-bottom: 0.5em;
-   color: #aaa;
-   margin-top: 30px;
-   line-height: 2em;
+  font-size: 1.12rem;
+  margin-bottom: 0.5em;
+  margin-top: 30px;
+  line-height: 2em;
+
+  color: var(--color-text);
+  font-family: var(--font-family-barlow);
 }

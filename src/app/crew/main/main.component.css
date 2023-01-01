@@ -1,119 +1,123 @@
-:host {
-   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-      "Segoe UI Symbol";
-}
+/* :host {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+} */
 .crew-page {
-   width: 100vw;
-   height: 100vh;
-   background-image: url("../../../assets/crew/background-crew-desktop.jpg");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../../assets/crew/background-crew-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 .main-container {
-   display: flex;
-   flex-direction: column;
-   width: 950px;
-   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  margin: 0 auto;
 }
 .content-container {
-   display: flex;
-   flex-direction: row;
-   align-self: center;
-   position: absolute;
-   bottom: 0;
-   width: 950px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: absolute;
+  bottom: 0;
+  width: 950px;
 }
 .card-container {
-   width: 55%;
-   margin-right: 90px;
+  width: 55%;
+  margin-right: 90px;
 }
 .img-container {
-   display: flex;
-   width: 45%;
+  display: flex;
+  width: 45%;
 }
 .tittle {
-   font-size: 2.5rem;
-   line-height: 1.2;
-   margin: 170px 0 0 0;
-   color: #fff;
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 24px;
+  letter-spacing: 4.725px;
+  color: white;
+  text-transform: uppercase;
 }
 p {
-   font-size: 1.2rem;
-   line-height: 1.5;
-   text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: justify;
 }
 span {
-   font-weight: 600;
-   color: #aaa;
-   margin-right: 20px;
+  font-weight: 600;
+  opacity: 0.25;
+  margin-right: 20px;
+  font-family: var(--font-family-condensed);
 }
 img {
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 @media (max-width: 1440px) {
-   .main-container {
-      width: 900px;
-   }
-   .content-container {
-      width: 900px;
-   }
+  .main-container {
+    width: 900px;
+  }
+  .content-container {
+    width: 900px;
+  }
 }
 @media (max-width: 1024px) {
-   .main-container {
-      width: 700px;
-      height: 100%;
-   }
-   .content-container {
-      width: 700px;
-   }
-   .card-container {
-      width: 45%;
-      margin: 0 50px 0 0;
-   }
-   .tittle {
-      margin: 200px 0 0 0;
-   }
+  .main-container {
+    width: 700px;
+    height: 100%;
+  }
+  .content-container {
+    width: 700px;
+  }
+  .card-container {
+    width: 45%;
+    margin: 0 50px 0 0;
+  }
+  .tittle {
+    margin: 200px 0 0 0;
+  }
 }
 @media (max-width: 768px) {
-   .crew-page {
-      width: 100vw;
-      height: 150vh;
-      background-image: url("../../../assets/crew/background-crew-tablet.jpg");
-   }
-   .main-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-   }
-   .content-container {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-   }
-   .card-container {
-      width: 80%;
-      margin: 40px 0 0 0;
-   }
-   .img-container {
-      width: 50%;
-      margin-top: 50px;
-   }
-   img {
-      width: 100%;
-      object-fit: cover;
-   }
+  .crew-page {
+    width: 100vw;
+    height: 150vh;
+    background-image: url("../../../assets/crew/background-crew-tablet.jpg");
+  }
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .content-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .card-container {
+    width: 80%;
+    margin: 40px 0 0 0;
+  }
+  .img-container {
+    width: 50%;
+    margin-top: 50px;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
 }
 @media (max-width: 425px) {
-   .crew-page {
-      width: 100vw;
-      height: 150vh;
-      background-image: url("../../../assets/crew/background-crew-mobile.jpg");
-   }
+  .crew-page {
+    width: 100vw;
+    height: 150vh;
+    background-image: url("../../../assets/crew/background-crew-mobile.jpg");
+  }
 }

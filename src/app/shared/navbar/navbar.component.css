@@ -17,3 +17,21 @@
   padding-right: 100px;
   /* margin-right: -100px; */
 }
+
+.line-desktop {
+  background-color: white;
+  height: 1px;
+  margin-right: -40px;
+  opacity: 0.25;
+  width: 29.56rem;
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 1024px) {
+  .line-desktop {
+    display: none;
+  }
+}
+/* @media only screen and (min-width: 768px) {
+
+} */
