@@ -10,8 +10,6 @@ import { SharedModule } from './shared/shared.module';
 import { TechnologyModule } from './technology/technology.module';
 import { HomeModule } from './home/home.module';
 
-
-
 // @NgModule({
 //   declarations: [
 //     AppComponent
@@ -33,7 +31,7 @@ import { HomeModule } from './home/home.module';
     AppRoutingModule,
     CrewModule,
     TechnologyModule,
-    HomeModule
+    HomeModule,
     DestinationModule,
     SharedModule,
   ],
