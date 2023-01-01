@@ -8,6 +8,9 @@ import { CrewModule } from './crew/crew.module';
 import { DestinationModule } from './destination/destination.module';
 import { SharedModule } from './shared/shared.module';
 import { TechnologyModule } from './technology/technology.module';
+import { HomeModule } from './home/home.module';
+
+
 
 // @NgModule({
 //   declarations: [
@@ -30,6 +33,7 @@ import { TechnologyModule } from './technology/technology.module';
     AppRoutingModule,
     CrewModule,
     TechnologyModule,
+    HomeModule
     DestinationModule,
     SharedModule,
   ],
